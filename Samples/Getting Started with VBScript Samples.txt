@@ -1,0 +1,25 @@
+==================================
+== How to use VBScript Examples ==
+==================================
+
+1. Register the ActiveX version of DebenuPDFLibraryLite0916.dll.
+
+You need to register the ActiveX library with Windows, using the following command:
+
+regsvr32 <path>\DebenuPDFLibraryLite0916.dll
+
+2. In order to easily run the examples, you will need to associate .vbs files with wscript.exe. You can do this by doing the following:
+
+- Right-click on a .vbs file and select 'Open with > Choose default program'.
+- click on the 'Browse...' button and navigate your way to 'C:\Windows\system32'.
+- Select the 'wscript.exe' file and click on OK.
+
+.vbs files should now open cscript.exe when they are double-clicked on.
+
+3. Double-click on any of the .vbs examples to see them in action.
+
+PLEASE NOTE: IN WINDOWS VISTA, 7 AND 8 YOU WILL HAVE TO MOVE THE VBS FILES TO A FOLDER OUTSIDE OF PROGRAM FILES IN ORDER FOR THEM TO WORK CORRECTLY. DUE TO PERMISSIONS ISSUES, THESE VBS FILES CANNOT EXECUTE IN THE PROGRAM FILES FOLDER.
+
+===============================
+== Debenu Copyright (c) 2013 ==
+===============================
